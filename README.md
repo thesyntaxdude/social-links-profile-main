@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (ttps://www.frontendmentor.io/solutions/social-profiles-link-vanilla-html-and-css-HHDGpBodeg)
 - Live Site URL: (https://thesyntaxdude.github.io/social-links-profile-main/)
 
 ## My process
@@ -41,6 +41,6 @@ Users should be able to:
 - Mobile-first workflow
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/thesyntaxdude)
+- Frontend Mentor - [@thesyntaxdude](https://www.frontendmentor.io/profile/thesyntaxdude)
 - Twitter - [@thesyntaxdude](https://www.twitter.com/thesyntaxdude)
 
