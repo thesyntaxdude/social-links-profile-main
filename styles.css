@@ -1,0 +1,90 @@
+/*basic reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*imported font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+    --bgColor: hsl(0, 0%, 8%);
+    --containerColor: hsl(0, 0%, 12%);
+    --linkBgColor: hsl(0, 0%, 20%);
+    --mainTextColor: hsl(0, 0%, 100%);
+    --secondaryTextColor: hsl(75, 94%, 57%);
+}
+
+
+body{
+    background-color: var(--bgColor);
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 265px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--containerColor);
+    border-radius: 10px;
+    height: 500px;
+}
+.profilePic{
+    width: 90px;
+    margin: 18px auto 25px;
+    border-radius: 50%;
+}
+h1, a, p{
+    color: var(--mainTextColor);
+    text-align: center;
+    font-size: 24px;
+}
+p{
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+h1{
+    margin-bottom: 5px;
+}
+h3, a, p{
+    font-size: 14px;
+}
+h3{
+    color: var(--secondaryTextColor);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+a{
+    background-color: var(--linkBgColor);
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    margin: auto auto 13px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+a:hover{
+    background-color: var(--secondaryTextColor);
+    color: var(--bgColor);
+}
+
+
+
+@media (min-width: 500px){
+    .container{
+        width: 350px;
+        padding: 265px 25px;
+    }
+}
